@@ -12,6 +12,8 @@
     margin-top: 25px;
     text-align: center;
     border-radius: 5px;
+    font-family: sans-serif;
+    
     
 }
 .login-container{
@@ -23,6 +25,10 @@
     width:90%;
     border-radius: 5px;
     cursor: pointer;
+    font-size: small;
+    font-family: sans-serif;
+    border-color: gainsboro;
+    
     
 }
 .container2{
@@ -33,6 +39,7 @@
     text-align: center;
     border-radius: 5px;
     margin-top: 10px;
+    font-family: sans-serif;
 }
 .container3{
     text-align: center;
@@ -41,12 +48,14 @@
 }
 .button{
     width: 90%;
+    height: 25px;
     margin: 10px 0px;
     background-color: #0064e0;
     color: white;
     font-style: none;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
 }
 .alternative-option p{
     color: gray;
@@ -87,6 +96,34 @@
     margin: 0%;
 
 }
+.forgot  a{
+    text-decoration: none;
+}
+.container2 a{
+    text-decoration: none;
+}
+
+
+@media(max-width: 950px){
+   #iphone{
+    display: none;
+   }
+    
+   .lowerline{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin: 0% 10%;
+    color: gray;
+    text-decoration: none; 
+    font-size: small;
+   
+}
+  .footer{
+    display: none;
+  }
+}
+
 
     
 
